@@ -1,7 +1,10 @@
 # cryptoproject
 
 Pollard's p-1 Algorithm
+
 Author: Andrew Chin
+
+The program is simple. We use command line arguments as input into the program with no input validation.
 
 ### Introduction
 This simple program is used to factor numbers. The user can choose to factor a random number or pick their own number. The output is a single line consisting of N (the number to factor) and its two factors, p and q.
@@ -18,3 +21,6 @@ OPTIONS:
   -r         generate a random number to factor
   -h         print this help menu
 ```
+
+### Future Work
+We plan to create a simple text-based GUI using the ncurses API. 

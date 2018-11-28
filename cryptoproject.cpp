@@ -87,7 +87,7 @@ int main(int argc, char* argv[]) {
     while ((opt = getopt(argc, argv, "n:rh")) != -1) {
         switch (opt) {
             case 'n':
-                N = (int64)atoi(optarg);
+                N = (int64)atoll(optarg);
                 break;
             case 'r':
                 N = randnum();

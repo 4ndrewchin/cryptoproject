@@ -11,7 +11,7 @@ This simple program is used to factor numbers. The user can choose to factor a r
 
 ### Usage:
 - to build, use the command `make all`.
-- to run, use the command `./pollards` to view the help text.
+- to run, use the command `./pollards` with appropriate options.
 
 ### Help Text
 ```
@@ -23,4 +23,4 @@ OPTIONS:
 ```
 
 ### Future Work
-We plan to create a simple text-based GUI using the ncurses API. 
+Create an interpreter with a simple text-based GUI using the ncurses API that factors numbers that are entered.
